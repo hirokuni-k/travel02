@@ -15,8 +15,8 @@ def choose(plans)
   plans[select_plans_num - 1]
 end
 
-def decide_number(chosen_plan)
-  puts "#{chosen_plan[:name]}ですね。"
+def determine_the_number_of_people(chosen_plan)
+  puts "#{chosen_plan[:place]}ですね。"
   puts "何名で予約されますか？"
   while true
     print "人数を入力>"

@@ -7,5 +7,5 @@ plans = [
 
 disp(plans)
 chosen_plan = choose(plans)
-number_of_people = decide_number(chosen_plan)
+number_of_people = determine_the_number_of_people(chosen_plan)
 caluculate_charges(chosen_plan, number_of_people)
